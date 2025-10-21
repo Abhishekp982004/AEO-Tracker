@@ -74,6 +74,10 @@ To import seed data into Supabase:
 2. Import `seed_data.json` or manually add via UI
 3. Or use the Supabase API/SQL to bulk insert
 
+or 
+directly import `checks_for_supabase.csv` to the visibility_checks table created
+and add a row in the projects table with the project id and the user id and all the details
+
 ### 5. Start the Application
 
 ```bash
